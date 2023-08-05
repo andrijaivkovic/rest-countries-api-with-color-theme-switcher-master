@@ -1,0 +1,23 @@
+:root {
+  // CSS color variables
+
+  &.light {
+    --color-text: hsl(200, 15%, 8%);
+    --color-background: hsl(0, 0%, 98%);
+    --color-element: hsl(0, 0%, 100%);
+    --color-input: hsl(0, 0%, 52%);
+  }
+
+  &.dark {
+    --color-text: hsl(0, 0%, 100%);
+    --color-background: hsl(207, 26%, 17%);
+    --color-element: hsl(208, 23%, 22%);
+    --color-input: hsl(0, 0%, 100%);
+  }
+}
+
+// Sass breakpoint variables
+
+$breakpoint-mobile: 37.5em;
+$breakpoint-desktop-tablet: 75em;
+$breakpoint-desktop: 100em;

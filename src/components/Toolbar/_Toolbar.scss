@@ -1,0 +1,21 @@
+.toolbar {
+  @include flex-column;
+  gap: 3rem;
+
+  width: 100%;
+
+  @include mediaQuery(tablet) {
+    @include flex-row;
+    justify-content: space-between;
+  }
+
+  @include mediaQuery(desktop) {
+    @include flex-row;
+    justify-content: space-between;
+  }
+
+  @include mediaQuery(desktop-small) {
+    @include flex-row;
+    justify-content: space-between;
+  }
+}

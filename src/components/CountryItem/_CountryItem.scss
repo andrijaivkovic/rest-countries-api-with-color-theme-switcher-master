@@ -1,0 +1,61 @@
+.country {
+  color: var(--color-text);
+
+  background-color: var(--color-element);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgba($color: #000000, $alpha: 0.1);
+
+  overflow: hidden;
+
+  &:hover {
+    opacity: 0.75;
+  }
+
+  &__flag {
+    & > img {
+      width: 100%;
+      object-fit: cover;
+      border-bottom: 0.5px solid rgba($color: #000000, $alpha: 0.15);
+
+      @include mediaQuery(desktop) {
+        height: 28rem;
+      }
+
+      @include mediaQuery(desktop-small) {
+        height: 28rem;
+      }
+
+      @include mediaQuery(tablet) {
+        height: 28rem;
+      }
+    }
+  }
+
+  &__details {
+    padding: 3rem 2.4rem;
+    padding-bottom: 4.8rem;
+
+    @include mediaQuery(desktop) {
+      padding: 4rem 2.5rem;
+      padding-bottom: 5rem;
+    }
+
+    & > h2 {
+      margin-bottom: 2.4rem;
+      @include mediaQuery(desktop) {
+        font-size: 2rem;
+      }
+    }
+
+    & > p {
+      margin-bottom: 1rem;
+      @include mediaQuery(desktop) {
+        font-size: 1.6rem;
+      }
+    }
+
+    & > p:last-of-type {
+      margin: unset;
+    }
+  }
+}
