@@ -1,4 +1,18 @@
 .error {
   @include flex-column;
   @include flex-center;
+
+  & > h3 {
+    font-size: 2rem;
+  }
+
+  & > p {
+    font-size: 1.8rem;
+  }
+
+  @include mediaQuery(desktop-small) {
+  }
+
+  @include mediaQuery(desktop) {
+  }
 }
