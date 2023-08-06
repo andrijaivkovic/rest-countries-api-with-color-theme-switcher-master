@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](rest-countries-api-app-ai.netlify.app)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/rest-countries-api-app-Uv-wz_Cb6I)
+- Live Site URL: [Live site](rest-countries-api-app-ai.netlify.app)
 
 ## My process
 
