@@ -1,11 +1,13 @@
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
+import "@fontsource-variable/nunito-sans";
+
 import { CountriesProvider } from "./contexts/CountriesContext";
 import { CountryProvider } from "./contexts/CountryContext";
+import { AppProvider } from "./contexts/AppContext";
 
 import Home from "./pages/Home/Home";
 import Country from "./pages/Country/Country";
-import { AppProvider } from "./contexts/AppContext";
 import PageNotFound from "./pages/PageNotFound/PageNotFound";
 
 function App() {
