@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
-import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
+import { v4 as uuidv4 } from "uuid";
+
 import { useCountry } from "../../contexts/CountryContext";
+
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 const CountryDetails = () => {
   const { country, borderingCountries, isLoadingBordering } = useCountry();
@@ -73,7 +76,7 @@ const CountryDetails = () => {
               <strong>Languages:</strong>&nbsp;{languages}
             </p>
           </div>
-          <div className="country-details__bordering">
+          <div key={uuidv4()} className="country-details__bordering">
             <h3>Border Countries:</h3>
             <div className="coutry-details__bordering-countries">
               {borderingCountries && !isLoadingBordering ? (
