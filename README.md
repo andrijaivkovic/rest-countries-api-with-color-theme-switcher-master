@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://www.frontendmentor.io/solutions/rest-countries-api-app-Uv-wz_Cb6I)
-- Live Site URL: [Live site](rest-countries-api-app-ai.netlify.app)
+- Live Site URL: [Live site](https://rest-countries-api-app-ai.netlify.app)
 
 ## My process
 
@@ -66,14 +66,6 @@ On this [link](https://dev.to/gedalyakrycer/ohsnap-sass-folder-structure-for-rea
 On this [link](http://getbem.com/) you can learn more about BEM naming convention that I used to name my classes in this project.ewing your solution or for yourself when you look back on this project in the future.\*\*
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
 
 - Frontend Mentor - [@andrijaivkovic](https://www.frontendmentor.io/profile/andrijaivkovic)
 - Twitter - [@AndrijaIvkovic1](https://twitter.com/AndrijaIvkovic1)
